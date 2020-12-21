@@ -8,7 +8,7 @@ module.exports = function(app) {
     if (req.user) {
       return res.redirect("/members");
     }
-    return res.render("homepage");
+    return res.render("/homepage");
   });
 
   app.get("/signup", (req, res) => {
@@ -16,7 +16,7 @@ module.exports = function(app) {
     if (req.user) {
       return res.redirect("/members");
     }
-    return res.render("signup");
+    return res.render("/signup");
   });
 
   app.get("/login", (req, res) => {
@@ -24,7 +24,7 @@ module.exports = function(app) {
     if (req.user) {
       return res.redirect("/members");
     }
-    return res.render("login");
+    return res.render("/login");
   });
 
   // Here we've add our isAuthenticated middleware to this route.
@@ -33,18 +33,18 @@ module.exports = function(app) {
     if (req.user) {
       return res.render("members");
     }
-    return res.render("login");
+    return res.render("/login");
   });
 
   // Files for non authenticated users
   app.get("/nosecrets", (req, res) => {
     // If the user already has an account send them to the members page
-    return res.render("nosecrets");
+    return res.render("/nosecrets");
   });
 
   app.get("/fakedoc", (req, res) => {
     // If the user already has an account send them to the members page
-    return res.render("fakedoc");
+    return res.render("/fakedoc");
   });
 
   //Routes for secret files
@@ -64,12 +64,12 @@ module.exports = function(app) {
           return res.sendStatus(500);
         });
     } else {
-      return res.render("nosecrets");
+      return res.render("/nosecrets");
     }
   });
 
   app.get("/userdoc", (req, res) => {
     // If the user already has an account send them to the members page
-    return res.render("userdoc");
+    return res.render("/userdoc");
   });
 };
