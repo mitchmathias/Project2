@@ -1,63 +1,65 @@
-# Secret Goverment Agency
 
-## Description 
+# Department of Secret Information
 
-Website containing all of our wonderful goverment secrets. Please do not read unless you are authoried to view these top secret secrets.
+## Description: 
+We set out to create a database driven application in which we could showcase a system of security clearance allowing access to different data from the database. We did so utilizing a node and express server with a handlebars template and mysql/sequelize database and orm. 
+## Table of Contents
 
-Project 2
+-[Description](#description)
 
-Application Requirements
+-[Installation](#installation)
 
+-[Instructions](#instructions)
 
-Must use a Node and Express server
+-[Licenses](#licenses)
 
+-[Deployed](#deployed)
 
-Must use Handlebars.js as the template engine
+-[Contact](#contact)
 
+-[Contributors](#Contributors)
 
-Must be backed by a MySQL database with a Sequelize ORM
+-[Testing](#Tests)
 
+## Installation:
+We utilized a series of technologies including mySql, sequelize, jquery, bulma, morgan, express, express-handlebars, bcrypt and passport. For usage of the site, no additional installation is needed.  
+## Instructions:
+Our app has an intuitive interface, which with just a signup, can be accessed easily.
+### Licenses: 
+![license](https://img.shields.io/badge/license-mit-red)
+### Deployed: 
+[https://calm-river-70620.herokuapp.com/](https://calm-river-70620.herokuapp.com/)
 
-Must utilize both GET and POST routes for retrieving and adding new data
+![image](/public/images/signup.png)
 
+![image](/public/images/Home.png)
 
-Must be deployed using Heroku (with data)
+![image](/public/images/morgan1.png)
 
+### Contact:
 
-Must utilize at least one new library, package, or technology that we haven’t discussed
+[Github](https://github.com/mitchmathias/SecretGovermentAgency)
 
+### Contributors:
 
-Must have a polished front end/UI
-
-
-Must have a folder structure that meets the MVC paradigm
-
-
-Must meet good quality coding standards (indentation, scoping, naming)
-
-
-Must protect API keys in Node with environment variables
-
-
-
-Presentation Requirements
-Use this project presentation template to address the following:
-
-
-Elevator pitch: a one minute description of your application
-
-
-Concept: What is your user story? What was your motivation for development?
+Mitch Mathias
+[mitch.mathias96@gmail.com](mitch.mathias96@gmail.com)
+[https://github.com/mitchmathias](https://github.com/mitchmathias)
 
 
-Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+Chris Lyko
+[chrislyko@gmail.com](chrislyko@gmail.com)
+[https://github.com/KrixLeekz](https://github.com/KrixLeekz)
 
 
-Demo: Show your stuff!
+Thom Rattana
+[thomr95@gmail.com](thomr95@gmail.com)
+[https://github.com/Trattana95](https://github.com/Trattana95)
 
 
-Directions for Future Development
+Peter Boyle
+[Boyle.Peter614@gmail.com](Boyle.Peter614@gmail.com)
+[https://github.com/boylepeter](https://github.com/boylepeter)
 
-
-Links to to the deployed application and the GitHub repository. Use this guide for deploying your application to Heroku if you need a reminder on how to deploy!
-
+### Tests: 
+We tested using local and heroku servers. 
